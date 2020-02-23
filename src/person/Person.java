@@ -5,14 +5,14 @@ import java.util.LinkedList;
 public class Person {
     private String firstName;
     private String lastName;
-    private LinkedList<String> contactNumber;
-    private String emailID;
+    private LinkedList<String> contacts;
+    private String email;
 
     public Person(String fn, String ln, LinkedList<String> cn, String e) {
         firstName = fn;
         lastName = ln;
-        contactNumber = cn;
-        emailID = e;
+        contacts = cn;
+        email = e;
     }
 
     public String getFirstName() {
@@ -32,18 +32,18 @@ public class Person {
     }
 
     public LinkedList<String> getContactNumber() {
-        return contactNumber;
+        return contacts;
     }
 
     public void setContactNumber(LinkedList<String> contactNumber) {
-        this.contactNumber = contactNumber;
+        this.contacts = contactNumber;
     }
 
     public String getEmailID() {
-        return emailID;
+        return email;
     }
 
     public void setEmailID(String emailID) {
-        this.emailID = emailID;
+        this.email = emailID;
     }
 }
