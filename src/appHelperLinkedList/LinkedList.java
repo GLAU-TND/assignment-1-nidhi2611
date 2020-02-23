@@ -68,5 +68,11 @@ public class LinkedList {
         }
     }
 
+    public void removeLast() {
+        var previousNode = getPreviousNode(last);
+        last = previousNode;
+        last.setNext(null);
+    }
+
 
 }
