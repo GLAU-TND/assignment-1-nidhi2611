@@ -4,7 +4,25 @@ import person.Person;
 
 public class Node {
     private Person value;
-    private Node node;
+    private Node next;
 
+    public Node(Person value) {
+        this.value = value;
+    }
 
+    public Person getValue() {
+        return value;
+    }
+
+    public void setValue(Person value) {
+        this.value = value;
+    }
+
+    public Node getNode() {
+        return next;
+    }
+
+    public void setNext(Node next) {
+        this.next = next;
+    }
 }
