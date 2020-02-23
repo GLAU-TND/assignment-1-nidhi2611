@@ -1,12 +1,14 @@
 package person;
 
+import java.util.LinkedList;
+
 public class Person {
     private String firstName;
     private String lastName;
-    private long[] contactNumber;
+    private LinkedList<String> contactNumber;
     private String emailID;
 
-    public Person(String fn, String ln, long[] cn, String e) {
+    public Person(String fn, String ln, LinkedList<String> cn, String e) {
         firstName = fn;
         lastName = ln;
         contactNumber = cn;
@@ -29,11 +31,11 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public long[] getContactNumber() {
+    public LinkedList<String> getContactNumber() {
         return contactNumber;
     }
 
-    public void setContactNumber(long[] contactNumber) {
+    public void setContactNumber(LinkedList<String> contactNumber) {
         this.contactNumber = contactNumber;
     }
 
