@@ -31,19 +31,19 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public LinkedList<String> getContactNumber() {
+    public LinkedList<String> getContacts() {
         return contacts;
     }
 
-    public void setContactNumber(LinkedList<String> contactNumber) {
+    public void setContacts(LinkedList<String> contactNumber) {
         this.contacts = contactNumber;
     }
 
-    public String getEmailID() {
+    public String getEmail() {
         return email;
     }
 
-    public void setEmailID(String emailID) {
+    public void setEmail(String emailID) {
         this.email = emailID;
     }
 }

@@ -18,11 +18,13 @@ public class Node {
         this.value = value;
     }
 
-    public Node getNode() {
+    public Node getNext() {
         return next;
     }
 
     public void setNext(Node next) {
         this.next = next;
     }
+
+
 }
